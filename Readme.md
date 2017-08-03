@@ -33,3 +33,5 @@ When we model a graph for a real world relationship,
 we might visit every node of our graph and perform some kind of processing
 
 on each node. "Depth-First" and "Breadth-First" are two ways of traversing a graph.
+
+![img_1](https://github.com/AFZL95/Grape_Graph/blob/master/img/img_1.png)
