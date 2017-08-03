@@ -2,11 +2,13 @@
 
 Grape Graph is an effort to implement Graph algorithms in Python.
 
+![grape_graph logo](https://github.com/AFZL95/Grape_Graph/blob/master/img/gg.jpg)
+
 ## what should this repository consists?
 
 first things first, abstract implementation of graph structure
 
-it's "Graph.py" which implement the graph abstract type and two way of storing data in it:
+it's "graph.py" which implement the graph abstract type and two way of storing data in it:
 
 1. Adjacency Matrix Graph
 2. Adjacency Set Graph
@@ -36,7 +38,7 @@ on each node. "Depth-First" and "Breadth-First" are two ways of traversing a gra
 
 ![img_1](https://github.com/AFZL95/Grape_Graph/blob/master/img/img_1.png)
 
-so travesing this tree with Breadth-First approach would be like:
+so traversing this tree with Breadth-First approach would be like:
 
 H -> B -> F -> A -> G -> E -> C -> D
 
@@ -54,4 +56,7 @@ H -> B -> A -> F -> G -> E -> C -> D
 |Any node will be visited exactly once | Nodes could be visited multiple times |
 | No need to track which nodes already visited | Essential to track which node already visited
 |No unconnected nodes possible | Unconnected nodes possible|
-| No need to track which nodes already visited | Algorithm can not terminate untill all nodes have been visited |
+| No need to track which nodes already visited | Algorithm can not terminate until all nodes have been visited |
+
+### Implementing the traversal algorithms
+
