@@ -4,9 +4,9 @@ Grape Graph is an effort to implement Graph algorithms in Python.
 
 ![grape_graph logo](https://github.com/AFZL95/Grape_Graph/blob/master/img/gg.jpg)
 
-## what does this repository have?
+## What does this repository have?
 
-first things first, abstract implementation of graph structure
+first things first, abstract implementation of graph structure.
 
 it's "graph.py" which implement the graph abstract type and two way of storing data in it:
 
@@ -15,7 +15,7 @@ it's "graph.py" which implement the graph abstract type and two way of storing d
 
 then in the Graph class, I wrote a simple Test to check everything is ok or not.
 
-### Advantages and Disadvantages:
+### Advantages and Disadvantages of those two ways:
 Adjacency Matrix is suitable for small and densely connected graphs
 
 Adjacency List is more usefull for large, sparsely connected graphs
@@ -38,7 +38,7 @@ on each node. "Depth-First" and "Breadth-First" are two ways of traversing a gra
 
 ![img_1](https://github.com/AFZL95/Grape_Graph/blob/master/img/img_1.png)
 
-so travesing this tree with Breadth-First approach would be like:
+so traversing this tree with Breadth-First approach would be like:
 
 H -> B -> F -> A -> G -> E -> C -> D
 
@@ -60,4 +60,9 @@ H -> B -> A -> F -> G -> E -> C -> D
 
 ### Implementing the traversal algorithms
 
+two approach of traversing the graph is implemented.
+
+first the "breadth_first" algorithm and second, "depth_first"
+
+"traversal.py" module is highly documented and there is no need for further comments.
 
