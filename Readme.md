@@ -66,3 +66,14 @@ first the "breadth_first" algorithm and second, "depth_first"
 
 "traversal.py" module is highly documented and there is no need for further comments.
 
+### Implementing path related algorithms
+
+in this section, the most two important algorithms were implemented.
+
+dijkstra and kruskal
+
+### miscellaneous
+
+in the case of implementation of shortest path algorithms and path related algorithms i've used Matteo Dell'Amico's python implementation for priority queue.
+
+which can be found in the algorithms directory.
